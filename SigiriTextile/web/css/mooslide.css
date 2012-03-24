@@ -1,0 +1,123 @@
+/*MooSlide stylesheet*/
+
+.mooSlide {
+	background-color: #333;
+	padding: 25px 10px 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.2em;
+	color: #FFFFFF;
+	margin: 0 auto;
+	text-align: left;
+	font-size: 0.85em;
+	display: none;
+	width: 500px;
+	-webkit-border-radius:20px;
+	margin-left:200px;
+	position:absolute;
+}
+
+.mooSlide h1 {
+	font-size: 1.6em;
+	height: 20px;
+	padding-top: 22px;
+	color: white;
+}
+
+/* padlock icon from IconsPedia */
+/* http://www.iconspedia.com/icon/padlocks-1464.html */
+
+a {
+	text-decoration: none;
+	color: #33CCCC;
+}
+
+a:hover {
+	color: white;
+}
+
+.mooSlide form {
+	
+	height: 26px;
+}
+
+.mooSlide label {
+	float: left;
+	padding-top: 8px;
+	clear: both;
+	width: 180px;
+	display: block;
+}
+
+.mooSlide .left {
+	background-image:url(../images/Lock-icon.png);
+	background-repeat:no-repeat;
+	width: 200px;
+	height:200px;
+	padding-left: 25px;
+	margin-left:15px;
+	margin-top:25px;
+}
+
+.mooSlide .right {
+	margin-top:30px;
+	width: 380px;
+	padding-left: 20px;
+	margin-left:220px;
+	margin-top:-180px;
+
+}
+
+
+.mooSlide input {
+	border: 1px #1A1A1A solid;
+	background: #464646;
+	margin-right: 5px;
+	margin-top: 4px;
+	color: white;
+	height: 16px;
+	float: left;
+	clear: both;
+	display: block;
+}
+
+.mooSlide input:focus {
+	background: #545454;
+}
+
+.mooSlide input.rememberme {
+	border: none;
+	background: transparent;
+	padding: 0;
+}
+
+.mooSlide input.button_login {
+	width: 82px;
+	height: 20px;
+	cursor: pointer;
+	border: none;
+	margin-top: 10px;
+	background: transparent url(../images/button_login.jpg) no-repeat 0 0;
+}
+
+.mooSlide .loginClose {
+	display: block;
+	position: absolute;
+	right: 20px;
+	top: 10px;
+	width: 26px;
+}
+
+.mooSlide .loginClose a {
+	display: block;
+	width: 100%;
+	height: 26px;
+	background: url(../images/button_close.jpg) no-repeat right 0;
+	padding-right: 10px;
+	border: none;
+	font-size: 0.9em;
+	color: white;
+}
+
+.mooSlide .loginClose a:hover {
+	background: url(../images/button_close.jpg) no-repeat right -26px;
+}      

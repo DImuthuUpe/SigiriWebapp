@@ -1,0 +1,29 @@
+
+
+html { height: 100%; font-size: 62.5% }
+
+body { height: 100%; background-color: #FFFFFF; font: 1.2em Verdana, Arial, Helvetica, sans-serif; }
+
+
+/* ==================== Form style sheet ==================== */
+
+form { margin: 10px 0 0 40px; width: 400px; }
+
+fieldset { margin: 0 0 22px 0; border: 1px solid #095D92; padding: 30px 10px; background-color: #DFF3FF;-webkit-border-radius:15px;}
+
+legend { font-size: 1.1em; background-color: #095D92; color: #FFFFFF; font-weight: bold; padding: 4px 8px;-webkit-border-radius:5px; }
+
+label.float { float: left; display: block; width: 100px; margin: 4px 0 0 0; clear: left; }
+label { display: block; width: auto; margin: 0 0 10px 0; }
+label.spam-protection { display: inline; width: auto; margin: 0; }
+
+input.inp-text, textarea, input.choose, input.answer { border: 1px solid #909090; padding: 3px;-webkit-border-radius:5px; }
+input.inp-text { width: 300px; margin: 0 0 8px 0; }
+input.inp-textord { width: 200px; margin: 0 0 8px 0; }
+textarea { width: 300px; height: 60px; margin: 0 0 12px 0; display: block; }
+
+input.choose { margin: 0 2px 0 0; }
+input.answer { width: 40px; margin: 0 0 0 10px; }
+input.submit-button { font: 1.4em Georgia, "Times New Roman", Times, serif; letter-spacing: 1px; display: block; margin: 23px 0 0 0; }
+
+form br { display: none; }

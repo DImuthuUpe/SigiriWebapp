@@ -1,0 +1,33 @@
+#roll a {
+width: 90px; /* sets the width of your buttons, remove this line if you want variable width */
+display: inline-block;
+text-decoration: none;
+height:70px;
+}
+#roll ul {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+#roll ul li {
+list-style-type: none;
+background: none;
+}
+#roll ul li a, #roll ul li a:visited { /* styles for the default button state */
+margin: 0 0 5px 0;
+padding: 0 15px 0 15px;
+line-height: 32px; /* this value must be at least twice the border-radius value */
+color: #006;
+background: #64B1FF;
+font-family: 'Arial Black', Impact, sans-serif;
+font-size: 16px;
+letter-spacing: -.06em; /* should be set to 0 for most cases */
+-moz-border-radius: 16px;
+-khtml-border-radius: 16px; 
+-webkit-border-radius: 16px;
+border-radius: 16px;
+}
+#roll ul li a:hover { /* styles for the rollover button state */
+color: #CCFFFF;
+background: #0099FF;
+}

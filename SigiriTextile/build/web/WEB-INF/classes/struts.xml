@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN" "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+    <constant name="struts.devMode" value="false" />
+    <package name="default" namespace="/" extends="struts-default">
+
+        <action name="Menu" class="actions.welcomeAction">
+            <result name="success">Menu.jsp</result>
+        </action>
+
+        <action name="CustomerOperation" class="actions.CustomerOperationAction">
+            <result name="success">customer.jsp</result>
+        </action>
+
+         <action name="Procurement" class="actions.ProcurementAction">
+            <result name="success">procument.jsp</result>
+        </action>
+
+        <action name="ItemConfiguration" class="actions.ItemConfigurationAction">
+            <result name="success">item.jsp</result>
+        </action>
+
+        <action name="SupplierOrder" class="actions.SupplierOrderAction">
+            <result name="success">supplier_order.jsp</result>
+        </action>
+
+        <action name="AddCustomer" class="actions.AddCustomerAction">
+            <result type="redirectAction">
+                <param name="actionName">CustomerOperation</param>
+            </result>
+        </action>
+
+        <action name="UpdateCustomer" class="actions.UpdateCustomerAction">
+            <result type="redirectAction">
+                <param name="actionName">CustomerOperation</param>
+            </result>
+        </action>
+
+        <action name="AddSupplier" class="actions.AddSupplierAction">
+            <result type="redirectAction">
+                <param name="actionName">Procurement</param>
+            </result>
+        </action>
+
+        <action name="UpdateSupplier" class="actions.UpdateSupplierAction">
+            <result type="redirectAction">
+                <param name="actionName">Procurement</param>
+            </result>
+        </action>
+
+        <action name="AddCategory" class="actions.AddCategoryAction">
+            <result type="redirectAction">
+                <param name="actionName">ItemConfiguration</param>
+            </result>
+        </action>
+
+        <action name="AddSubCategory" class="actions.AddSubCategoryAction">
+            <result type="redirectAction">
+                <param name="actionName">ItemConfiguration</param>
+            </result>
+        </action>
+
+        <action name="AddItem" class="actions.AddItemAction">
+            <result type="redirectAction">
+                <param name="actionName">ItemConfiguration</param>
+            </result>
+        </action>
+
+        <action name="EditItem" class="actions.EditItemAction">
+            <result type="redirectAction">
+                <param name="actionName">ItemConfiguration</param>
+            </result>
+        </action>
+
+        <action name="AddPurchaseOrder" class="actions.AddPurchaseOrderAction">
+            <result type="redirectAction">
+                <param name="actionName">SupplierOrder</param>
+            </result>
+        </action>
+
+
+
+    </package>
+</struts>

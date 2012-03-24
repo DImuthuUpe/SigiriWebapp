@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+/* Container */
+.verticalslider {border: 1px solid #666666; overflow: hidden; width: 95%; margin: 0 auto; margin-top: 25px; height: 700px; background-color:#CCC;-webkit-border-radius:10px; }
+
+/* Tabs */
+.verticalslider_tabs {float: left;width: 240px; height:800px;}
+.verticalslider_tabs, .verticalslider_tabs li{margin: 0px; padding: 0px;}
+.verticalslider_tabs li{list-style-type: none;}
+.verticalslider_tabs a:link, .verticalslider_tabs a:visited{display: block; width: 240px; height: 29px; padding: 14px 10px 6px 10px; background-color:#64B1FF; color:#CCC;font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif; font-size: 19px; font-weight: bold;color: #333333;  border-right: 1px solid #666666; border-top: 1px solid #666666; text-decoration: none;}
+.verticalslider_tabs a:hover, .verticalslider_tabs a:active{ background-color:#9FCFFF}
+.verticalslider_tabs li:first-child a:link, .verticalslider_tabs li:first-child a:visited{border-top: none; height: 30px;}
+.verticalslider_tabs .activeTab a:link, .verticalslider_tabs .activeTab a:visited{background: #ffffff; border-right: 1px solid #ffffff;}
+.verticalslider_tabs .activeTab a:hover, .verticalslider_tabs .activeTab a:active{background: #ffffff; border-right: 1px solid #ffffff;}
+.verticalslider .arrow {background: url(../images/arrow.png); width: 27px; height: 60px; position: absolute; z-index: 1000; margin-left: 260px; margin-top: -55px; }
+
+/* Contents */
+.verticalslider_contents{float: left;width: 600px;display: inline; margin: 0px; padding: 0px;-webkit-border-radius:5px; }
+.verticalslider_contents li{margin: 0px; padding: 0px;width: 600px; padding: 0px;display: none;position: absolute;list-style-type: none; }
+.verticalslider_contents li h2{font-family: Georgia, "Times New Roman", Times, serif, font-size: 15px; color: #333333;margin: 5px 20px; padding: 0px;}
+.verticalslider_contents li p{ margin: 5px 20px; padding: 0px;color: #333333;font-family: Tahoma, Geneva, sans-serif; font-size: 13px; }
+.verticalslider_contents .activeContent{display: inline;}
+
+
+
+
